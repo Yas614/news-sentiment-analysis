@@ -1,0 +1,19 @@
+# Python environment
+venv/
+__pycache__/
+*.pyc
+
+# Data (Never upload raw data to GitHub)
+data/raw/*.zip
+data/raw/*.csv
+data/raw/yfinance_data/
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# IDE settings
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
